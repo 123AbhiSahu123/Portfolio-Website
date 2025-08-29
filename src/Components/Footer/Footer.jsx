@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPhone } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -13,21 +14,54 @@ const Footer = () => {
         <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
         <h3 className="text-sm md:text-2xl font-normal">
           Feel Free To reach out!
+          Click to reach Me! 👉 
         </h3>
       </div>
 
       <ul className="text-sm md:text-xl">
+
         <li className="flex gap-1 items-center">
-          <MdOutlineEmail size={20} />
-          myemail@gmail.com
+          <FaPhone size={30} />
+          <a
+            href="tel:+91 9044961156"
+            style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
+          >
+            Call Me: +91 9044961156
+          </a>
         </li>
+
         <li className="flex gap-1 items-center">
-          <CiLinkedin />
-          linkdlin.com/username
+          <MdOutlineEmail size={30} />
+          <a
+            href="mailto:sahuabhishek3810@gmail.com"
+            style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
+          >
+            Email Me
+          </a>
         </li>
+
         <li className="flex gap-1 items-center">
-          <FaGithub />
-          github.com/username
+          <CiLinkedin size={30} />
+          <a
+            href="https://www.linkedin.com/in/abhishek-sahu-a5a3472a4/"
+            target="_blank" // opens in a new tab
+            rel="noopener noreferrer" // security best practice
+            style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
+          >
+            Abhi_Sahu on LinkedIn
+          </a>
+        </li>
+
+        <li className="flex gap-1 items-center">
+          <FaGithub size={30} />
+          <a
+            href="https://github.com/123AbhiSahu123"
+            target="_blank" // opens in a new tab
+            rel="noopener noreferrer" // security best practice
+            style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
+          >
+            Abhi_Sahu on GitHub
+          </a>
         </li>
       </ul>
     </div>

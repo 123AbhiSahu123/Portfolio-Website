@@ -1,5 +1,6 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
+// import AboutImg from "../../assets/7358653-removebg-preview.png";
+import AboutImg from "../../assets/Male.png"
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
         <div className="md:flex flex-wrap flex-col md:flex-row items-center">
           <img className="md:h-80" src={AboutImg} alt="About img" />
+          
 
           <ul>
             <div className="flex gap-3 py-4">
@@ -18,14 +20,11 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Frontend developer
+                 Frontend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qui
-                  similique recusandae provident consectetur sed itaque alias
-                  sint ipsa?
+                  HTML/CSS, BootsStrap, JavaScript, Typescript, Express Js, React Js, Node Js, Next Js,
+                  Json, Jquery, Ajax.  
                 </p>
               </span>
             </div>
@@ -34,11 +33,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
+                  Database And Tools
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                  MongoDB, MySQL, Git, GitHub, API, Material UI(User Interface).
                 </p>
               </span>
             </div>
@@ -47,12 +45,10 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Backend developer
+                  Backend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                  Core Java, Advance Java, Frameworks(Spring, SpringBoot, Hibernate). 
                 </p>
               </span>
             </div>

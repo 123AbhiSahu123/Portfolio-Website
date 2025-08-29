@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/AbhiBG.png";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
           <TextChange />
         </h1>
         <p className="text-sm md:text-2xl tracking-tight ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-          doloremque?
+          It is my Toon pic which is put in my Portfolio😊Website and it is my official Portfolio👀Website.
+          In this Website using Vite and React Js Technology which is possible completed this task. 
         </p>
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           Contact Me

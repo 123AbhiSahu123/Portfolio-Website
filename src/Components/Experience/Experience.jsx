@@ -1,10 +1,15 @@
 import React from "react";
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { FaMaxcdn } from "react-icons/fa";
 import { SiRedis } from "react-icons/si";
 import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiNetflixFill } from "react-icons/ri";
 import { FaAmazon } from "react-icons/fa";
+
+const McDonaldsLogo = () => <svg viewBox="0 0 512 512" width="100" height="100"><circle cx="256" cy="256" r="256" fill="#DA291C" /><path d="M151 384s10-192 50-192 50 192 50 192 10-192 50-192 50 192 50 192" stroke="#FFC72C" strokeWidth="60" fill="none" strokeLinecap="round" /></svg>;
+
+
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
@@ -34,6 +39,39 @@ const Experience = () => {
           </span>
         </div>
         <div>
+
+
+
+
+
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+            <RiNetflixFill color="#E50914" size={50} />
+            <span className="text-white">
+              <h2 className="leading-tight">Web Designing, NetFlix</h2>
+              <p className="text-sm leading-tight font-thin">
+                Sept 2023 - Present
+              </p>
+              <ul className="text-sm p-2">
+                <li>- Work as Website Designer.</li>
+                <li>- Senior SDE-Designer</li>
+              </ul>
+            </span>
+          </div>
+
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+            <FaAmazon color="#FF9900" size={50} />
+            <span className="text-white">
+              <h2 className="leading-tight">Web Development, Amazon</h2>
+              <p className="text-sm leading-tight font-thin">
+                Sept 2023 - Present
+              </p>
+              <ul className="text-sm p-2">
+                <li>- Work as Web Developer.</li>
+                <li>- SDE-Developer</li>
+              </ul>
+            </span>
+          </div>
+
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <FaGoogle color="#4285F4" size={50} />
             <span className="text-white">
@@ -42,37 +80,28 @@ const Experience = () => {
                 Sept 2023 - Present
               </p>
               <ul className="text-sm p-2">
-                <li>- Work as software developer</li>
+                <li>- Work as Software Developer</li>
                 <li>- Senior SDE-developer</li>
               </ul>
             </span>
           </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <RiNetflixFill color="#E50914" size={50} />
+
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <FaMaxcdn size={50} color="yellow" />
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
+              <h2 className="leading-tight">Crew , McDonald's</h2>
               <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
+                August 2024 - August 2025
               </p>
               <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
+                <li>- Work with Crew Member</li>
+                <li>- Billing of Customer Meals and give Services</li>
+                <li>- Part Time Work</li>
+
               </ul>
             </span>
           </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <FaAmazon color="#FF9900" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
-              <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
-              </ul>
-            </span>
-          </div>
+
         </div>
       </div>
     </div>
