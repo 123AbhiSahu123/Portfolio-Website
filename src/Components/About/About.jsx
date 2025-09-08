@@ -23,8 +23,8 @@ const About = () => {
                  Frontend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  HTML/CSS, BootsStrap, JavaScript, Typescript, Express Js, React Js, Node Js, Next Js,
-                  Json, Jquery, Ajax.  
+                  HTML/CSS, BootsStrap, Tailwind CSS, JavaScript, Typescript, React Js, Next Js,
+                  Json, Jquery, Ajax, ShadCN/UI.  
                 </p>
               </span>
             </div>
@@ -48,7 +48,20 @@ const About = () => {
                   Backend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Core Java, Advance Java, Frameworks(Spring, SpringBoot, Hibernate). 
+                  Node Js, Express Js, Core Java, Advance Java, Frameworks(Spring, SpringBoot, Hibernate). 
+                </p>
+              </span>
+            </div>
+
+             <div className="flex gap-3 py-4">
+              <IoArrowForward size={30} className="mt-1" />
+
+              <span className="w-96">
+                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+                  Deployment
+                </h1>
+                <p className="text-sm md:text-md leading-tight">
+                  Vercel, Netlify, Render, and AWS. 
                 </p>
               </span>
             </div>

@@ -6,6 +6,7 @@ import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { RiNetflixFill } from "react-icons/ri";
 import { FaAmazon } from "react-icons/fa";
+import ducatImage from "../../assets/ducat.jpeg";
 
 const McDonaldsLogo = () => <svg viewBox="0 0 512 512" width="100" height="100"><circle cx="256" cy="256" r="256" fill="#DA291C" /><path d="M151 384s10-192 50-192 50 192 50 192 10-192 50-192 50 192 50 192" stroke="#FFC72C" strokeWidth="60" fill="none" strokeLinecap="round" /></svg>;
 
@@ -37,51 +38,41 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiRedis color="#FF4438" size={50} />
           </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <RiNetflixFill color="#FF4438" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <FaAmazon color="#FF9900" size={50} />
+          </span>
         </div>
         <div>
 
-
-
-
-
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <RiNetflixFill color="#E50914" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">Web Designing, NetFlix</h2>
-              <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Work as Website Designer.</li>
-                <li>- Senior SDE-Designer</li>
-              </ul>
-            </span>
-          </div>
-
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <FaAmazon color="#FF9900" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">Web Development, Amazon</h2>
-              <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Work as Web Developer.</li>
-                <li>- SDE-Developer</li>
-              </ul>
-            </span>
-          </div>
 
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <FaGoogle color="#4285F4" size={50} />
             <span className="text-white">
               <h2 className="leading-tight">Software Engineer , Google</h2>
               <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
+                Sept 2023 - In Future
               </p>
               <ul className="text-sm p-2">
                 <li>- Work as Software Developer</li>
                 <li>- Senior SDE-developer</li>
+              </ul>
+            </span>
+          </div>
+
+
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+            <img src={ducatImage} alt="DUCAT" className="w-[50px] h-auto rounded" size={50} />
+            <span className="text-white">
+              <h2 className="leading-tight">Full Stack Developer, Mern Stack</h2>
+              <p className="text-sm leading-tight font-thin">
+                Aug 05, 2024 - Aug 08, 2025
+              </p>
+              <ul className="text-sm p-2">
+                <li>- Work as Web Developer.</li>
+                <li>- Internship</li>
               </ul>
             </span>
           </div>
@@ -91,7 +82,7 @@ const Experience = () => {
             <span className="text-white">
               <h2 className="leading-tight">Crew , McDonald's</h2>
               <p className="text-sm leading-tight font-thin">
-                August 2024 - August 2025
+                Aug 22, 2024 - Aug 2, 2025
               </p>
               <ul className="text-sm p-2">
                 <li>- Work with Crew Member</li>

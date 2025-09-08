@@ -14,7 +14,7 @@ const Home = () => {
           In this Website using Vite and React Js Technology which is possible completed this task. 
         </p>
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Contact Me
+          <a href="https://drive.google.com/file/d/1zyRvFZ6stk8cKRH6XNKRQ8O5-5i2WJ1N/view?usp=sharing" target='_blank'>Resume</a>
         </button>
       </div>
       <div>
