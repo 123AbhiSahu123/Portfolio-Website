@@ -24,7 +24,7 @@ const About = () => {
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   HTML/CSS, BootsStrap, Tailwind CSS, JavaScript, Typescript, React Js, Next Js,
-                  Json, Jquery, Ajax, ShadCN/UI.  
+                  Json, Jquery, Ajax and ShadCN/UI.  
                 </p>
               </span>
             </div>
@@ -33,10 +33,11 @@ const About = () => {
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database And Tools
+                  Database And AI_Tools
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  MongoDB, MySQL, Git, GitHub, API, Material UI(User Interface).
+                  MongoDB, MySQL, Git, GitHub, API, Material UI(User Interface), Copilot, 
+                  Chat_GPT, Gemini and AI Pieces.
                 </p>
               </span>
             </div>
