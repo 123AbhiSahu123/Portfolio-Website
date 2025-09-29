@@ -1,5 +1,4 @@
 import React from "react";
-// import AboutImg from "../../assets/7358653-removebg-preview.png";
 import AboutImg from "../../assets/Male.png"
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
@@ -23,7 +22,7 @@ const About = () => {
                  Frontend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  HTML/CSS, BootsStrap, Tailwind CSS, JavaScript, Typescript, React Js, Next Js,
+                  HTML/CSS, BootStrap, Tailwind CSS, JavaScript, Typescript, React Js, Next Js,
                   Json, Jquery, Ajax and ShadCN/UI.  
                 </p>
               </span>

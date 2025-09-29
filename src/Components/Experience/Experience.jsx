@@ -7,6 +7,8 @@ import { SiMongodb } from "react-icons/si";
 import { RiNetflixFill } from "react-icons/ri";
 import { FaAmazon } from "react-icons/fa";
 import ducatImage from "../../assets/ducat.jpeg";
+import acmeImage from "../../assets/acme.png";
+
 
 const McDonaldsLogo = () => <svg viewBox="0 0 512 512" width="100" height="100"><circle cx="256" cy="256" r="256" fill="#DA291C" /><path d="M151 384s10-192 50-192 50 192 50 192 10-192 50-192 50 192 50 192" stroke="#FFC72C" strokeWidth="60" fill="none" strokeLinecap="round" /></svg>;
 
@@ -62,17 +64,30 @@ const Experience = () => {
             </span>
           </div>
 
+          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+            <img src={acmeImage} alt="acme" className="w-[50px] h-auto rounded" size={80} />
+            <span className="text-white">
+              <h2 className="leading-tight">Full Stack Developer, Acme Infolabs Pvt. Ltd.</h2>
+              <p className="text-sm leading-tight font-thin">
+                Sept 17, 2025 - Current
+              </p>
+              <ul className="text-sm p-2">
+                <li>- Work as Web Developer.</li>
+                <li>- Full Time Work</li>
+              </ul>
+            </span>
+          </div>
 
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
             <img src={ducatImage} alt="DUCAT" className="w-[50px] h-auto rounded" size={50} />
             <span className="text-white">
-              <h2 className="leading-tight">Full Stack Developer, Mern Stack</h2>
+              <h2 className="leading-tight">Full Stack Developer, Ducat Pvt. Ltd.</h2>
               <p className="text-sm leading-tight font-thin">
                 Aug 05, 2024 - Aug 08, 2025
               </p>
               <ul className="text-sm p-2">
-                <li>- Work as Web Developer.</li>
-                <li>- Internship</li>
+                <li>- Learning real time code.</li>
+                <li>- Java Full-Stack</li>
               </ul>
             </span>
           </div>
