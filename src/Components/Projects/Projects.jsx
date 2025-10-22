@@ -15,12 +15,12 @@ const Projects = () => {
           codeLink="https://github.com/123AbhiSahu123/E-Kart/blob/main/src/App.css"
         />
         <ProjectCard
-          title="Plus_Demic✌"
-          main="It is a Health Medical Checkup Website which is name Plus_Demic using React Js Technology.
-          It has many Information which is beneficial for patient like Top Doctors, Top Hospitals and 
-          some useful blogs."
-          demoLink="https://plusdemic-nine.vercel.app/"
-          codeLink="https://github.com/123AbhiSahu123/plusdemic/blob/main/src/main.jsx"
+          title="Todo_List✌"
+          main="It is like a Notes Remember app which is name of Todo_List using React Js and Vite Technology.
+          It has Todo_Title and Todo_Description. It is used of remembering any work which that you will do in Future after done your pending work you 
+          'Deleted'."
+          demoLink="https://todo-list-zeta-eight.vercel.app/"
+          codeLink="https://github.com/123AbhiSahu123/Todo_List"
         />
         <ProjectCard
           title="AI_Tutorial😊"
