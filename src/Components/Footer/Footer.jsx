@@ -3,6 +3,8 @@ import { FaPhone } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FiX } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -48,19 +50,41 @@ const Footer = () => {
             rel="noopener noreferrer" // security best practice
             style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
           >
-            Abhi_Sahu on LinkedIn
+           LinkedIn
           </a>
         </li>
 
-        <li className="flex gap-1 items-center">
-          <FaGithub size={30} />
+        <li className="flex gap-2 items-center">
+          <FaGithub size={25} />
           <a
             href="https://github.com/123AbhiSahu123"
             target="_blank" // opens in a new tab
             rel="noopener noreferrer" // security best practice
             style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
           >
-            Abhi_Sahu on GitHub
+            GitHub
+          </a>
+        </li>
+        <li className="flex gap-2 items-center">
+          <FaFacebookF size={25} />
+          <a
+            href="https://www.facebook.com/shivamsahu1577"
+            target="_blank" // opens in a new tab
+            rel="noopener noreferrer" // security best practice
+            style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
+          >
+           FaceBook
+          </a>
+        </li>
+        <li className="flex gap-1 items-center">
+          <FiX size={30} />
+          <a
+            href="https://x.com/Abhishe62526101"
+            target="_blank" // opens in a new tab
+            rel="noopener noreferrer" // security best practice
+            style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}
+          >
+          X(Twitter)
           </a>
         </li>
       </ul>
